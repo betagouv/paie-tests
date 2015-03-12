@@ -15,3 +15,13 @@ npm install .	# install devDependencies
 sudo gem install compass
 grunt build
 ```
+
+
+Usage
+-----
+
+Run a [Mongo](http://www.mongodb.org) database, and run the app with:
+
+```shell
+MONGODB_URL="mongodb://localhost:27017" node server.js
+```
