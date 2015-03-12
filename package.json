@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ludwig-api": "sgmap/ludwig-api",
+    "ludwig-ui": "sgmap/ludwig-ui",
+    "express": "^4.12.2"
+  }
+}

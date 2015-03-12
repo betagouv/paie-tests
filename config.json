@@ -1,0 +1,21 @@
+{
+	"scenarioTemplate": "ui/paie.js",
+	"baseUrl": "/tests",
+	"showUrls": true,
+	"constants": "DEPRECATED.js",
+
+	"possibleValues": [
+		{
+			"id": "valueId",
+			"label": "This will be displayed to the user",
+			"shortLabel": "Human-readable",
+			"hasMontant": true
+		},
+		{
+			"id": "carteInvalidite",
+			"label": "Carte d'invalidité",
+			"shortLabel": "Carte d'invalidité",
+			"hasMontant": false
+		}
+	]
+}

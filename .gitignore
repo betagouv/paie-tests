@@ -1,0 +1,8 @@
+# OSX-specific files
+.DS_Store
+
+# NPM modules
+node_modules
+
+# Mongo
+db
