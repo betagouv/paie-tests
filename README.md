@@ -6,15 +6,9 @@ Ludwig-based testing instance for the Paie API.
 Install dependencies
 --------------------
 
-Clone this repository, and then do:
+You will need [`compass`](https://github.com/Compass/compass) to build the UI assets. Therefore, before installing, ensure you have Ruby and `compass`. If not, install Ruby and `sudo gem install compass`.
 
-```shell
-npm install
-cd node_modules/ludwig-ui
-npm install .	# install devDependencies
-sudo gem install compass
-grunt build
-```
+Afterwards, clone this repository and simply `npm install`.
 
 
 Usage

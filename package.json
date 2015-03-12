@@ -4,5 +4,9 @@
     "ludwig-api": "sgmap/ludwig-api",
     "ludwig-ui": "sgmap/ludwig-ui",
     "express": "^4.12.2"
+  },
+  "scripts": {
+    "preinstall": "command -V compass",
+    "postinstall": "cd node_modules/ludwig-ui && npm install && grunt build"
   }
 }
