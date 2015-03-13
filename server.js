@@ -1,3 +1,5 @@
+var http = require('http');
+
 var config = require('./config.json');
 
 var express = require('express');
@@ -14,10 +16,16 @@ require('ludwig-ui')(app, __dirname, config);
 app.use('/api', require('ludwig-api')({
 	possibleValues: possibleValues,
 	simulate: function(test, done) {
-		console.log('Simulating', test);
+		http.get(test.scenario, function(res) {
+			var result = '';
 
-		done(null, {
-			valueId: 0
+			res.on('data', function(chunk) {
+				result += chunk;
+			});
+			res.on('end', function() {
+				done(null, JSON.parse(result).values);
+			});
+			res.on('error', done);
 		});
 	},
 
