@@ -12,6 +12,10 @@
   "scripts": {
     "preinstall": "command -V compass",
     "postinstall": "cd node_modules/ludwig-ui && npm install && grunt build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "watai tests"
+  },
+  "devDependencies": {
+    "watai": "^0.6.2"
   }
 }
