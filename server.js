@@ -11,7 +11,7 @@ var possibleValues = config.possibleValues;
 delete config.possibleValues;	// avoid sending unused data to UI
 
 
-process.env.MONGODB_URL = require('url').format({
+process.env.MONGODB_URL = process.env.MONGODB_URL || require('url').format({
 	protocol	: 'mongodb',
 	slashes		: true,
 	host		: process.env.npm_package_config_mongoHost
