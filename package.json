@@ -1,9 +1,13 @@
 {
+  "name": "ludwig-paie",
   "main": "server.js",
   "dependencies": {
     "ludwig-api": "sgmap/ludwig-api",
     "ludwig-ui": "sgmap/ludwig-ui",
     "express": "^4.12.2"
+  },
+  "config": {
+    "mongoHost": "localhost:27017"
   },
   "scripts": {
     "preinstall": "command -V compass",

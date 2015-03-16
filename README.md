@@ -14,8 +14,12 @@ Afterwards, clone this repository and simply `npm install`.
 Usage
 -----
 
-Run a [Mongo](http://www.mongodb.org) database, and run the app with:
+### Mongo connection
+
+Run a [Mongo](http://www.mongodb.org) database. Its host is defined in the NPM `package.json` file. If necessary, update the host with `npm config set ludwig-paie:mongoHost <hostname:port>`.
+
+### Running the app
 
 ```shell
-MONGODB_URL=mongodb://localhost:27017 npm start
+npm start
 ```
