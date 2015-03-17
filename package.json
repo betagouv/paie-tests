@@ -3,7 +3,7 @@
   "main": "server.js",
   "dependencies": {
     "ludwig-api": "sgmap/ludwig-api",
-    "ludwig-ui": "sgmap/ludwig-ui@v0.1.0",
+    "ludwig-ui": "sgmap/ludwig-ui@v0.1.1",
     "express": "^4.12.2"
   },
   "config": {
