@@ -1,6 +1,7 @@
 {
 	"scenarioTemplate": "ui/paie.js",
 	"baseUrl": "/tests",
+	"baseApiPath": "/tests/api",
 	"showUrls": true,
 	"constants": "DEPRECATED.js",
 

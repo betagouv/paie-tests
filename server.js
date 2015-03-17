@@ -20,7 +20,7 @@ process.env.MONGODB_URL = process.env.MONGODB_URL || require('url').format({
 
 require('ludwig-ui')(app, __dirname, config);
 
-app.use('/api', require('ludwig-api')({
+app.use(config.baseApiPath, require('ludwig-api')({
 	possibleValues: possibleValues,
 	simulate: function(test, done) {
 		http.get(test.scenario, function(res) {
