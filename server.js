@@ -18,8 +18,6 @@ process.env.MONGODB_URL = process.env.MONGODB_URL || require('url').format({
 });
 
 
-require('ludwig-ui')(app, __dirname, config);
-
 app.use(config.baseApiPath, require('ludwig-api')({
 	possibleValues: possibleValues,
 	simulate: function(test, done) {
@@ -40,6 +38,8 @@ app.use(config.baseApiPath, require('ludwig-api')({
 		done();	// nothing to do at the moment
 	}
 }));
+
+require('ludwig-ui')(app, __dirname, config);
 
 
 var port = process.env.PORT || 9000;
