@@ -7,3 +7,6 @@ npm-debug.log
 
 # Mongo
 db
+
+# Foreman-specific files
+.env
