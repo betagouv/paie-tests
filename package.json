@@ -3,15 +3,13 @@
   "main": "server.js",
   "dependencies": {
     "ludwig-api": "sgmap/ludwig-api",
-    "ludwig-ui": "sgmap/ludwig-ui#v0.1.1",
+    "ludwig-ui": "sgmap/ludwig-ui#v0.1.2",
     "express": "^4.12.2"
   },
   "config": {
     "mongoHost": "localhost:27017"
   },
   "scripts": {
-    "preinstall": "command -V compass",
-    "postinstall": "cd node_modules/ludwig-ui && npm install && grunt build",
     "start": "node server.js",
     "test": "watai tests"
   },
