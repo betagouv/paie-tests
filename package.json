@@ -2,9 +2,10 @@
   "name": "ludwig-paie",
   "main": "server.js",
   "dependencies": {
+    "cors": "^2.5.3",
+    "express": "^4.12.2",
     "ludwig-api": "sgmap/ludwig-api",
-    "ludwig-ui": "sgmap/ludwig-ui#v0.1.1",
-    "express": "^4.12.2"
+    "ludwig-ui": "sgmap/ludwig-ui#v0.1.1"
   },
   "config": {
     "mongoHost": "localhost:27017"

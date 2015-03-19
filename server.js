@@ -3,6 +3,7 @@ var http = require('http');
 var config = require('./config.json');
 
 var express = require('express');
+var cors = require('cors');
 
 var app = express();
 
@@ -18,7 +19,7 @@ process.env.MONGODB_URL = process.env.MONGODB_URL || require('url').format({
 });
 
 
-app.use(config.baseApiPath, require('ludwig-api')({
+app.use(config.baseApiPath, cors({ origin: true, credentials: true }), require('ludwig-api')({
 	possibleValues: possibleValues,
 	simulate: function(test, done) {
 		http.get(test.scenario, function(res) {
