@@ -1,5 +1,5 @@
 {
-	"scenarioTemplate": "ui/paie.js",
+	"scenarioTemplatePath": "ui/paie.js",
 	"baseUrl": "/tests",
 	"baseApiPath": "/tests/api",
 	"showUrls": true,

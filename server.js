@@ -1,4 +1,5 @@
-var http = require('http');
+var http = require('http'),
+	path = require('path');
 
 var config = require('./config.json');
 
@@ -9,6 +10,8 @@ var app = express();
 var possibleValues = config.possibleValues;
 
 delete config.possibleValues;	// avoid sending unused data to UI
+
+config.scenarioTemplatePath = path.resolve(config.scenarioTemplatePath);
 
 
 process.env.MONGODB_URL = process.env.MONGODB_URL || require('url').format({
@@ -39,7 +42,7 @@ app.use(config.baseApiPath, require('ludwig-api')({
 	}
 }));
 
-require('ludwig-ui')(app, __dirname, config);
+app.use(config.baseUrl, require('ludwig-ui')(config));
 
 
 var port = process.env.PORT || 9000;
