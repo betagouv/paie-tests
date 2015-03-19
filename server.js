@@ -32,10 +32,6 @@ app.use(config.baseApiPath, require('ludwig-api')({
 			});
 			res.on('error', done);
 		});
-	},
-
-	onCreate: function(test, done) {
-		done();	// nothing to do at the moment
 	}
 }));
 
