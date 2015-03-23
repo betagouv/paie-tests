@@ -41,7 +41,7 @@ app.use(config.baseApiPath, require('ludwig-api')({
 app.use(config.baseUrl, require('ludwig-ui')(config));
 
 
-var port = process.env.PORT || 9000;
+var port = process.env.PORT || process.env.npm_package_config_port;
 
 // Start server
 app.listen(port, function () {
