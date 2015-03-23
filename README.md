@@ -3,12 +3,10 @@ Ludwig-based testing instance for the Paie API.
 > Instance Ludwig pour le test de l'API Paie.
 
 
-Install dependencies
---------------------
+Install
+-------
 
-You will need [`compass`](https://github.com/Compass/compass) to build the UI assets. Therefore, before installing, ensure you have Ruby and `compass`. If not, install Ruby and `sudo gem install compass`.
-
-Afterwards, clone this repository and simply `npm install`.
+Clone this repository, `cd` to it and run `npm install`.
 
 
 Usage
