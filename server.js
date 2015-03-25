@@ -45,7 +45,7 @@ var port = process.env.PORT || process.env.npm_package_config_port;
 
 // Start server
 app.listen(port, function () {
-	console.log('Express server listening on port', port, 'in mode', app.get('env'));
+	console.log('Serving Ludwig on http://localhost:' + port + config.baseUrl + ' in mode', app.get('env'));
 });
 
 module.exports = app;
