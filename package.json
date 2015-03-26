@@ -2,8 +2,8 @@
   "name": "ludwig-paie",
   "main": "server.js",
   "dependencies": {
-    "ludwig-api": "sgmap/ludwig-api#v0.1.1",
-    "ludwig-ui": "sgmap/ludwig-ui#v0.2.0",
+    "ludwig-api": "1.0.0-alpha.2",
+    "ludwig-ui": "1.0.0-alpha.2",
     "express": "^4.12.2"
   },
   "config": {
