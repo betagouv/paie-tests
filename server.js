@@ -46,6 +46,7 @@ var port = process.env.PORT || process.env.npm_package_config_port;
 
 // Start server
 app.listen(port, function () {
+	console.log('Connected to database', process.env.MONGODB_URL);
 	console.log('Serving Ludwig on http://localhost:' + port + config.baseUrl + ' in mode', app.get('env'));
 });
 
