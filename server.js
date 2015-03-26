@@ -17,7 +17,8 @@ config.scenarioTemplatePath = path.resolve(config.scenarioTemplatePath);
 process.env.MONGODB_URL = process.env.MONGODB_URL || require('url').format({
 	protocol	: 'mongodb',
 	slashes		: true,
-	host		: process.env.npm_package_config_mongoHost
+	host		: process.env.npm_package_config_mongoHost,
+	pathname	: process.env.npm_package_name
 });
 
 
