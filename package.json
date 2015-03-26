@@ -1,5 +1,5 @@
 {
-  "name": "ludwig-paie",
+  "name": "paie-tests",
   "main": "server.js",
   "dependencies": {
     "ludwig-api": "1.0.0-alpha.2",
