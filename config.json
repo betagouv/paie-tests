@@ -6,135 +6,21 @@
 
 	"possibleValues": [
 		{
-			"id": "accident_du_travail",
-			"label": "Accident du travail",
-			"shortLabel": "Acc. travail",
-			"isMontant": true
-		},
-		{
-			"id": "famille",
-			"label": "Famille",
-			"shortLabel": "Famille",
-			"isMontant": true
-		},
-		{
-			"id": "fnal_tranche_a",
-			"label": "Fonds national action logement",
-			"shortLabel": "FNAL",
-			"isMontant": true
-		},
-		{
-			"id": "fnal_tranche_a_plus_20",
-			"label": "Fonds national action logement",
-			"shortLabel": "FNAL",
-			"isMontant": true
-		},
-		{
-			"id": "versement_transport",
-			"label": "Versement transport",
-			"shortLabel": "Transport",
-			"isMontant": true
-		},
-		{
-			"id": "agff_tranche_a_employe",
-			"label": "AGFF",
-			"shortLabel": "AGFF",
-			"isMontant": true
-		},
-		{
-			"id": "agirc_tranche_b_employe",
-			"label": "AGIRC",
-			"shortLabel": "AGIRC",
-			"isMontant": true
-		},
-		{
-			"id": "apec_employe",
-			"label": "APEC",
-			"shortLabel": "APEC",
-			"isMontant": true
-		},
-		{
-			"id": "arrco_tranche_a_employe",
-			"label": "ARRCO",
-			"shortLabel": "ARRCO",
-			"isMontant": true
-		},
-		{
-			"id": "assedic_employe",
-			"label": "Assurance chômage",
-			"shortLabel": "ASSEDIC",
-			"isMontant": true
-		},
-		{
-			"id": "cotisation_exceptionnelle_temporaire_employe",
-			"label": "Cotisation exceptionnel temporaire",
-			"shortLabel": "CET",
-			"isMontant": true
-		},
-		{
-			"id": "vieillesse_plafonnee_employe",
-			"label": "Vieillesse plafonnée",
-			"shortLabel": "Vieil. plaf.",
-			"isMontant": true
-		},
-		{
-			"id": "vieillesse_deplafonnee_employe",
-			"label": "Vieillesse déplafonnée",
-			"shortLabel": "Vieil. déplaf.",
-			"isMontant": true
-		},
-		{
-			"id": "maladie_employe",
-			"label": "Maladie",
-			"shortLabel": "Maladie",
-			"isMontant": true
-		},
-		{
-			"id": "csgsald",
-			"label": "CSG déductible (salaires)",
-			"shortLabel": "CSG deduc",
-			"isMontant": true
-		},
-		{
-			"id": "mhsup",
-			"label": "Heures supplémentaires éxonérées",
-			"shortLabel": "Heures sup",
-			"isMontant": true
-		},
-		{
-			"id": "csgsali",
-			"label": "CSG non déductible (salaires)",
-			"shortLabel": "CSG imp. sal.",
-			"isMontant": true
-		},
-		{
-			"id": "crdssal",
-			"label": "CRDS (salaires)",
-			"shortLabel": "CRDS sal.",
-			"isMontant": true
-		},
-		{
-			"id": "sal",
-			"label": "Salaire imposable",
-			"shortLabel": "Sal. impos.",
+			"id": "salsuperbrut",
+			"label": "Salaire super-brut",
+			"shortLabel": "Salaire super-brut",
 			"isMontant": true
 		},
 		{
 			"id": "salaire_net_a_payer",
 			"label": "Salaire net",
-			"shortLabel": "Sal. nets",
+			"shortLabel": "Salaire net",
 			"isMontant": true
 		},
 		{
-			"id": "salsuperbrut",
-			"label": "Salaire super brut",
-			"shortLabel": "Coût travail",
-			"isMontant": true
-		},
-		{
-			"id": "allegement_fillon",
-			"label": "Allègement sur les bas salaires (Fillon)",
-			"shortLabel": "Allèg. sal.",
+			"id": "sal",
+			"label": "Salaire imposable",
+			"shortLabel": "Salaire imposable",
 			"isMontant": true
 		},
 		{
@@ -144,7 +30,7 @@
 			"isMontant": true
 		},
 		{
-			"id": "agff_tranche_a_employeur",
+			"id": "agff_employeur",
 			"label": "AGFF",
 			"shortLabel": "AGFF",
 			"isMontant": true
@@ -156,15 +42,27 @@
 			"isMontant": true
 		},
 		{
-			"id": "arrco_tranche_a_employeur",
+			"id": "agirc_employeur",
+			"label": "AGIRC",
+			"shortLabel": "AGIRC",
+			"isMontant": true
+		},
+		{
+			"id": "arrco_employeur",
 			"label": "ARRCO",
 			"shortLabel": "ARRCO",
 			"isMontant": true
 		},
 		{
-			"id": "assedic_employeur",
+			"id": "chomage_employeur",
 			"label": "ASSEDIC",
 			"shortLabel": "ASSEDIC",
+			"isMontant": true
+		},
+		{
+			"id": "ircantec_employeur",
+			"label": "Ircantec",
+			"shortLabel": "Ircantec",
 			"isMontant": true
 		},
 		{
@@ -176,19 +74,13 @@
 		{
 			"id": "vieillesse_deplafonnee_employeur",
 			"label": "Vieillesse déplafonnée",
-			"shortLabel": "Vieil. déplaf.",
+			"shortLabel": "Vieillesse déplafonnée",
 			"isMontant": true
 		},
 		{
 			"id": "vieillesse_plafonnee_employeur",
 			"label": "Vieillesse plafonnée",
-			"shortLabel": "Vieil. plaf.",
-			"isMontant": true
-		},
-		{
-			"id": "cotisations_patronales_non_contributives",
-			"label": "Cotisations sociales patronales non contributives",
-			"shortLabel": "Cotsoc pat noncontrib",
+			"shortLabel": "Vieillesse plafonnée",
 			"isMontant": true
 		},
 		{
@@ -198,63 +90,189 @@
 			"isMontant": true
 		},
 		{
-			"id": "maladie_employeur",
+			"id": "mmid_employeur",
 			"label": "Maladie",
 			"shortLabel": "Maladie",
 			"isMontant": true
 		},
 		{
-			"id": "cotisations_patronales_main_d_oeuvre",
-			"label": "Cotisations sociales patronales main d'oeuvre",
-			"shortLabel": "Cotsoc pat main oeuvre",
+			"id": "cotisations_employeur_main_d_oeuvre",
+			"label": "Main d'oeuvre",
+			"shortLabel": "Main d'oeuvre",
 			"isMontant": true
 		},
 		{
 			"id": "contribution_developpement_apprentissage",
-			"label": "Contribution au Développement de l'apprentissage",
-			"shortLabel": "Dév. apprenti.",
+			"label": "Contribution au développement de l'apprentissage",
+			"shortLabel": "Contribution au développement de l'apprentissage",
 			"isMontant": true
 		},
 		{
 			"id": "contribution_solidarite_autonomie",
 			"label": "Contribution solidarite autonomie",
-			"shortLabel": "CSA",
-			"isMontant": true
-		},
-		{
-			"id": "contribution_supplementaire_apprentissage",
-			"label": "Contribution supplémentaire à l'apprentissage",
-			"shortLabel": "Suppl. apprenti.",
+			"shortLabel": "Contribution solidarite autonomie",
 			"isMontant": true
 		},
 		{
 			"id": "formation_professionnelle",
 			"label": "Formation professionnelle",
-			"shortLabel": "Form. prof.",
+			"shortLabel": "Formation professionnelle",
 			"isMontant": true
 		},
 		{
 			"id": "participation_effort_construction",
 			"label": "Participation à l'effort de construction",
-			"shortLabel": "Construction",
+			"shortLabel": "Participation à l'effort de construction",
 			"isMontant": true
 		},
 		{
 			"id": "taxe_apprentissage",
 			"label": "Taxe d'apprentisssage",
-			"shortLabel": "Taxe apprenti.",
-			"isMontant": true
-		},
-		{
-			"id": "alleg_cice",
-			"label": "Crédit d'impôt compétitivité-emploi",
-			"shortLabel": "CICE",
+			"shortLabel": "Taxe d'apprentisssage",
 			"isMontant": true
 		},
 		{
 			"id": "taxe_salaires",
 			"label": "Taxe sur les salaires",
-			"shortLabel": "Taxe sal.",
+			"shortLabel": "Taxe sur les salaires",
+			"isMontant": true
+		},
+		{
+			"id": "accident_du_travail",
+			"label": "Accident du travail",
+			"shortLabel": "Accident du travail",
+			"isMontant": true
+		},
+		{
+			"id": "famille",
+			"label": "Famille",
+			"shortLabel": "Famille",
+			"isMontant": true
+		},
+		{
+			"id": "fnal",
+			"label": "Fonds national action logement",
+			"shortLabel": "Fonds national action logement",
+			"isMontant": true
+		},
+		{
+			"id": "versement_transport",
+			"label": "Versement transport",
+			"shortLabel": "Versement transport",
+			"isMontant": true
+		},
+		{
+			"id": "agff_salarie",
+			"label": "AGFF",
+			"shortLabel": "AGFF",
+			"isMontant": true
+		},
+		{
+			"id": "agirc_salarie",
+			"label": "AGIRC",
+			"shortLabel": "AGIRC",
+			"isMontant": true
+		},
+		{
+			"id": "apec_salarie",
+			"label": "APEC",
+			"shortLabel": "APEC",
+			"isMontant": true
+		},
+		{
+			"id": "arrco_salarie",
+			"label": "ARRCO",
+			"shortLabel": "ARRCO",
+			"isMontant": true
+		},
+		{
+			"id": "ircantec_salarie",
+			"label": "Ircantec",
+			"shortLabel": "Ircantec",
+			"isMontant": true
+		},
+		{
+			"id": "chomage_salarie",
+			"label": "Assurance chômage",
+			"shortLabel": "Assurance chômage",
+			"isMontant": true
+		},
+		{
+			"id": "cotisation_exceptionnelle_temporaire_salarie",
+			"label": "Cotisation exceptionnelle temporaire",
+			"shortLabel": "Cotisation exceptionnelle temporaire",
+			"isMontant": true
+		},
+		{
+			"id": "vieillesse_plafonnee_salarie",
+			"label": "Vieillesse (plafonnée)",
+			"shortLabel": "Vieillesse (plafonnée)",
+			"isMontant": true
+		},
+		{
+			"id": "vieillesse_deplafonnee_salarie",
+			"label": "Vieillesse (déplafonnée)",
+			"shortLabel": "Vieillesse (déplafonnée)",
+			"isMontant": true
+		},
+		{
+			"label": "Maladie",
+			"shortLabel": "Maladie",
+			"id": "mmid_salarie",
+			"isMontant": true
+		},
+		{
+			"id": "csgsald",
+			"label": "CSG déductible (salaires)",
+			"shortLabel": "CSG déductible (salaires)",
+			"isMontant": true
+		},
+		{
+			"id": "mhsup",
+			"label": "Heures supplémentaires éxonérées",
+			"shortLabel": "Heures supplémentaires éxonérées",
+			"isMontant": true
+		},
+		{
+			"label": "CSG non déductible (salaires)",
+			"shortLabel": "CSG non déductible (salaires)",
+			"id": "csgsali",
+			"isMontant": true
+		},
+		{
+			"id": "crdssal",
+			"label": "CRDS (salaires)",
+			"shortLabel": "CRDS (salaires)",
+			"isMontant": true
+		},
+		{
+			"id": "contribution_exceptionnelle_solidarite",
+			"label": "Contribution exceptionnelle de solidarité",
+			"shortLabel": "Contribution exceptionnelle de solidarité",
+			"isMontant": true
+		},
+		{
+			"id": "allegement_fillon",
+			"label": "Allègement sur les bas salaires (Fillon)",
+			"shortLabel": "Allègement sur les bas salaires (Fillon)",
+			"isMontant": true
+		},
+		{
+			"id": "exoneration_cotisations_employeur_zfu",
+			"label": "Zone franche urbaine",
+			"shortLabel": "Zone franche urbaine",
+			"isMontant": true
+		},
+		{
+			"id": "exoneration_cotisations_employeur_zrr",
+			"label": "Zone de revitalisation rurale",
+			"shortLabel": "Zone de revitalisation rurale",
+			"isMontant": true
+		},
+		{
+			"id": "exoneration_cotisations_employeur_zrd",
+			"label": "Zone RD",
+			"shortLabel": "Zone RD",
 			"isMontant": true
 		}
 	]
