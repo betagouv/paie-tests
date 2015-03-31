@@ -73,14 +73,14 @@
 		},
 		{
 			"id": "vieillesse_deplafonnee_employeur",
-			"label": "Vieillesse déplafonnée",
-			"shortLabel": "Vieillesse déplafonnée",
+			"label": "Vieillesse (déplafonnée)",
+			"shortLabel": "Vieillesse (déplafonnée)",
 			"isMontant": true
 		},
 		{
 			"id": "vieillesse_plafonnee_employeur",
-			"label": "Vieillesse plafonnée",
-			"shortLabel": "Vieillesse plafonnée",
+			"label": "Vieillesse (plafonnée)",
+			"shortLabel": "Vieillesse (plafonnée)",
 			"isMontant": true
 		},
 		{
@@ -152,7 +152,7 @@
 		{
 			"id": "fnal",
 			"label": "Fonds national action logement",
-			"shortLabel": "Fonds national action logement",
+			"shortLabel": "FNAL",
 			"isMontant": true
 		},
 		{
@@ -163,68 +163,68 @@
 		},
 		{
 			"id": "agff_salarie",
-			"label": "AGFF",
-			"shortLabel": "AGFF",
+			"label": "AGFF (salarié)",
+			"shortLabel": "AGFF (salarié)",
 			"isMontant": true
 		},
 		{
 			"id": "agirc_salarie",
-			"label": "AGIRC",
-			"shortLabel": "AGIRC",
+			"label": "AGIRC (salarié)",
+			"shortLabel": "AGIRC (salarié)",
 			"isMontant": true
 		},
 		{
 			"id": "apec_salarie",
-			"label": "APEC",
-			"shortLabel": "APEC",
+			"label": "APEC (salarié)",
+			"shortLabel": "APEC (salarié)",
 			"isMontant": true
 		},
 		{
 			"id": "arrco_salarie",
-			"label": "ARRCO",
-			"shortLabel": "ARRCO",
+			"label": "ARRCO (salarié)",
+			"shortLabel": "ARRCO (salarié)",
 			"isMontant": true
 		},
 		{
 			"id": "ircantec_salarie",
-			"label": "Ircantec",
-			"shortLabel": "Ircantec",
+			"label": "Ircantec (salarié)",
+			"shortLabel": "Ircantec (salarié)",
 			"isMontant": true
 		},
 		{
 			"id": "chomage_salarie",
-			"label": "Assurance chômage",
-			"shortLabel": "Assurance chômage",
+			"label": "Assurance chômage (salarié)",
+			"shortLabel": "Assurance chômage (salarié)",
 			"isMontant": true
 		},
 		{
 			"id": "cotisation_exceptionnelle_temporaire_salarie",
-			"label": "Cotisation exceptionnelle temporaire",
-			"shortLabel": "Cotisation exceptionnelle temporaire",
+			"label": "Cotisation exceptionnelle temporaire (salarié)",
+			"shortLabel": "CET (salarié)",
 			"isMontant": true
 		},
 		{
 			"id": "vieillesse_plafonnee_salarie",
-			"label": "Vieillesse (plafonnée)",
-			"shortLabel": "Vieillesse (plafonnée)",
+			"label": "Vieillesse (plafonnée) (salarié)",
+			"shortLabel": "Vieillesse (plafonnée) (salarié)",
 			"isMontant": true
 		},
 		{
 			"id": "vieillesse_deplafonnee_salarie",
-			"label": "Vieillesse (déplafonnée)",
-			"shortLabel": "Vieillesse (déplafonnée)",
+			"label": "Vieillesse (déplafonnée) (salarié)",
+			"shortLabel": "Vieillesse (déplafonnée) (salarié)",
 			"isMontant": true
 		},
 		{
-			"label": "Maladie",
-			"shortLabel": "Maladie",
 			"id": "mmid_salarie",
+			"label": "Maladie (salarié)",
+			"shortLabel": "Maladie (salarié)",
 			"isMontant": true
 		},
 		{
 			"id": "csgsald",
-			"label": "CSG déductible (salaires)",
-			"shortLabel": "CSG déductible (salaires)",
+			"label": "CSG déductible",
+			"shortLabel": "CSG déductible",
 			"isMontant": true
 		},
 		{
@@ -234,45 +234,45 @@
 			"isMontant": true
 		},
 		{
-			"label": "CSG non déductible (salaires)",
-			"shortLabel": "CSG non déductible (salaires)",
 			"id": "csgsali",
+			"label": "CSG non déductible",
+			"shortLabel": "CSG non déductible",
 			"isMontant": true
 		},
 		{
 			"id": "crdssal",
-			"label": "CRDS (salaires)",
-			"shortLabel": "CRDS (salaires)",
+			"label": "CRDS",
+			"shortLabel": "CRDS",
 			"isMontant": true
 		},
 		{
 			"id": "contribution_exceptionnelle_solidarite",
 			"label": "Contribution exceptionnelle de solidarité",
-			"shortLabel": "Contribution exceptionnelle de solidarité",
+			"shortLabel": "CES",
 			"isMontant": true
 		},
 		{
 			"id": "allegement_fillon",
 			"label": "Allègement sur les bas salaires (Fillon)",
-			"shortLabel": "Allègement sur les bas salaires (Fillon)",
+			"shortLabel": "Allègement Fillon",
 			"isMontant": true
 		},
 		{
 			"id": "exoneration_cotisations_employeur_zfu",
 			"label": "Zone franche urbaine",
-			"shortLabel": "Zone franche urbaine",
+			"shortLabel": "ZFU",
 			"isMontant": true
 		},
 		{
 			"id": "exoneration_cotisations_employeur_zrr",
 			"label": "Zone de revitalisation rurale",
-			"shortLabel": "Zone de revitalisation rurale",
+			"shortLabel": "ZRR",
 			"isMontant": true
 		},
 		{
 			"id": "exoneration_cotisations_employeur_zrd",
 			"label": "Zone RD",
-			"shortLabel": "Zone RD",
+			"shortLabel": "ZRD",
 			"isMontant": true
 		}
 	]
