@@ -260,19 +260,19 @@
 		{
 			"id": "exoneration_cotisations_employeur_zfu",
 			"label": "Zone franche urbaine",
-			"shortLabel": "ZFU",
+			"shortLabel": "Exo ZFU",
 			"isMontant": true
 		},
 		{
 			"id": "exoneration_cotisations_employeur_zrr",
 			"label": "Zone de revitalisation rurale",
-			"shortLabel": "ZRR",
+			"shortLabel": "Exo ZRR",
 			"isMontant": true
 		},
 		{
 			"id": "exoneration_cotisations_employeur_zrd",
-			"label": "Zone RD",
-			"shortLabel": "ZRD",
+			"label": "Zone de revitalisation de la défense",
+			"shortLabel": "Exo ZRD",
 			"isMontant": true
 		}
 	]
