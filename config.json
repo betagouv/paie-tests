@@ -286,6 +286,12 @@
 			"label": "Exonérations patronales de stage",
 			"shortLabel": "Exos stage",
 			"isMontant": true
+		},
+		{
+			"id": "exoneration_cotisations_employeur_jei",
+			"label": "Exonérations patronales JEI",
+			"shortLabel": "Exo JEI",
+			"isMontant": true
 		}
 	]
 }
