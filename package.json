@@ -2,8 +2,8 @@
   "name": "paie-tests",
   "main": "server.js",
   "dependencies": {
-    "ludwig-api": "1.0.0-alpha.2",
-    "ludwig-ui": "1.0.0-alpha.2",
+    "ludwig-api": "^1.0.0",
+    "ludwig-ui": "^1.0.1",
     "express": "^4.12.2"
   },
   "config": {
