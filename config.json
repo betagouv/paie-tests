@@ -274,6 +274,18 @@
 			"label": "Zone de revitalisation de la défense",
 			"shortLabel": "Exo ZRD",
 			"isMontant": true
+		},
+		{
+			"id": "exoneration_cotisations_employeur_apprenti",
+			"label": "Exonérations patronales d'apprentisssage",
+			"shortLabel": "Exos apprenti",
+			"isMontant": true
+		},
+		{
+			"id": "exoneration_cotisations_employeur_stagiaire",
+			"label": "Exonérations patronales de stage",
+			"shortLabel": "Exos stage",
+			"isMontant": true
 		}
 	]
 }
