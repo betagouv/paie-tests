@@ -222,7 +222,7 @@
 			"isMontant": true
 		},
 		{
-			"id": "csgsald",
+			"id": "csg_deductible_salaire",
 			"label": "CSG déductible",
 			"shortLabel": "CSG déductible",
 			"isMontant": true
@@ -234,13 +234,13 @@
 			"isMontant": true
 		},
 		{
-			"id": "csgsali",
+			"id": "csg_imposable_salaire",
 			"label": "CSG non déductible",
 			"shortLabel": "CSG non déductible",
 			"isMontant": true
 		},
 		{
-			"id": "crdssal",
+			"id": "crds_salaire",
 			"label": "CRDS",
 			"shortLabel": "CRDS",
 			"isMontant": true
