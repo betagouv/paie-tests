@@ -18,7 +18,7 @@
 			"isMontant": true
 		},
 		{
-			"id": "sal",
+			"id": "salaire_imposable",
 			"label": "Salaire imposable",
 			"shortLabel": "Salaire imposable",
 			"isMontant": true
